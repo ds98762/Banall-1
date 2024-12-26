@@ -1,4 +1,4 @@
-# Powered by @Darkranger00 | TELE:- @aadillllll
+ # Powered by @Darkranger00 | TELE:- @aadillllll
 # Dear Pero ppls Plish Don't remove this line from here🌚
 # created by Aadil Shiekh
 import logging
@@ -24,11 +24,11 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = 10738943
+API_ID = "10738943"
 API_HASH = "da61e3a08b5ac78ce28b4a4cd854aeec"
-BOT_TOKEN = "6151806723:AAEOkTGYlhQNPjrUHZAZBUSnIv-qDnTv-LI"
-OWNER_ID = "6163840192"
-SUDO_ID = "1463712862"
+BOT_TOKEN = "7063154314:AAE3E5jD3PSrRLvlIyPrWaAqlWiqaGc88KU"
+OWNER_ID = "6771364361"
+SUDO_ID = "6163840192"
 LUCIFER = "5044329488"
 COWNER_ID = "5716978554"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
@@ -169,10 +169,7 @@ async def leave(z):
             except Exception as e:
                 await z.edit(str(e))
 
-@sree.on(events.NewMessage)
-async def ver(events):
-    events = S
-    await events.main(str(e))
+
 
 
 print("Your Bot  Deployed Successfully ✅")
